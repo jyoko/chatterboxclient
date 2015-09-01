@@ -70,6 +70,10 @@ form input[type=text] {
     font-size: .7em;
 }
 
+.friend {
+    color: #0f0;
+}
+
 .chat:hover {
     background-color: #ddd;
 }

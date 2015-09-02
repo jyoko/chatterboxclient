@@ -1,5 +1,16 @@
+// TODO: Room selection doesn't work quite right
+//        - pull history from room also???
+//        - pull full list of rooms?? (too much?)
+// TODO: Prettifying (srsly, style it up)
+// TODO: Minor refactors
+//        - Some duplicated code
+//        - Some mixed logic
+// TODO: Make room (easy)
+// TODO: Potentially major UI update (overlaps w/prettifying)
+
+
 var app = {
-  server: 'https://api.parse.com/1/classes/chatterbox',
+  server: 'https://api.parse.com/1/classes/chatterbox?order=-createdAt',
   // time is initial time to try reconnecting in ms
   time: 1000,
   friends: {},
